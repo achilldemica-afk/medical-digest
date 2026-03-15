@@ -23,7 +23,7 @@ echo "  Kürasyon başlıyor ($(wc -l < "$INPUT_FILE") satır)..." >&2
 # claude -p ile kürasyon
 "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" \
     --model claude-opus-4-6 \
-    < "$INPUT_FILE" > "$OUTPUT_FILE.tmp" 2>/dev/null
+    < "$INPUT_FILE" > "$OUTPUT_FILE.tmp"
 
 # JSON başında/sonunda olası markdown code fences temizle
 "$PYTHON" -c "

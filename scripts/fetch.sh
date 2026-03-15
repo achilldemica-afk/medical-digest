@@ -1,0 +1,154 @@
+#!/bin/bash
+# fetch.sh — PubMed E-utilities ile son 24 saatin abstractlarını çeker
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+# Secrets yükle
+source "$PROJECT_DIR/config/secrets.env"
+
+JOURNALS_JSON="$PROJECT_DIR/config/journals.json"
+OUTPUT_FILE="$PROJECT_DIR/data/raw_abstracts.txt"
+EUTILS_BASE="https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+
+# Çıktı dosyasını sıfırla
+> "$OUTPUT_FILE"
+
+# journals.json'dan tüm ISSN'leri oku
+JOURNALS=$(python3 -c "
+import json, sys
+with open('$JOURNALS_JSON') as f:
+    journals = json.load(f)
+for j in journals:
+    print(j['issn'] + '|' + j['name'])
+")
+
+TOTAL_ARTICLES=0
+
+while IFS='|' read -r ISSN JOURNAL_NAME; do
+    echo "  → $JOURNAL_NAME ($ISSN) taranıyor..." >&2
+
+    # esearch: son 24 saatteki makaleleri bul
+    SEARCH_URL="${EUTILS_BASE}/esearch.fcgi?db=pubmed&term=${ISSN}[ISSN]&reldate=1&datetype=edat&retmax=50&retmode=json&api_key=${NCBI_API_KEY}"
+
+    SEARCH_RESULT=$(curl -sf --retry 3 --retry-delay 2 "$SEARCH_URL" 2>/dev/null || echo '{"esearchresult":{"idlist":[]}}')
+    sleep 0.15
+
+    PMIDS=$(python3 -c "
+import json, sys
+try:
+    data = json.loads('''$SEARCH_RESULT''')
+    ids = data.get('esearchresult', {}).get('idlist', [])
+    print(','.join(ids))
+except:
+    print('')
+" 2>/dev/null)
+
+    if [ -z "$PMIDS" ]; then
+        continue
+    fi
+
+    PMID_COUNT=$(echo "$PMIDS" | tr ',' '\n' | grep -c . || true)
+    echo "    $PMID_COUNT makale bulundu" >&2
+
+    # efetch: abstract + metadata çek
+    FETCH_URL="${EUTILS_BASE}/efetch.fcgi?db=pubmed&id=${PMIDS}&rettype=abstract&retmode=xml&api_key=${NCBI_API_KEY}"
+    XML_DATA=$(curl -sf --retry 3 --retry-delay 2 "$FETCH_URL" 2>/dev/null || echo "")
+    sleep 0.15
+
+    if [ -z "$XML_DATA" ]; then
+        continue
+    fi
+
+    # Python ile XML parse et ve raw_abstracts.txt formatına yaz
+    python3 << PYEOF >> "$OUTPUT_FILE"
+import xml.etree.ElementTree as ET
+import sys
+import re
+
+xml_data = """$XML_DATA"""
+journal_name = """$JOURNAL_NAME"""
+
+try:
+    root = ET.fromstring(xml_data)
+except ET.ParseError:
+    sys.exit(0)
+
+for article in root.findall('.//PubmedArticle'):
+    try:
+        # Başlık
+        title_el = article.find('.//ArticleTitle')
+        title = ''.join(title_el.itertext()).strip() if title_el is not None else 'No title'
+        # Noktalama temizle
+        title = re.sub(r'[\x00-\x1f]', ' ', title).strip()
+
+        # Abstract
+        abstract_parts = article.findall('.//AbstractText')
+        if not abstract_parts:
+            continue
+        abstract_text = ' '.join(''.join(p.itertext()).strip() for p in abstract_parts)
+        abstract_text = re.sub(r'[\x00-\x1f]', ' ', abstract_text).strip()
+        if len(abstract_text) < 50:
+            continue
+
+        # Yazarlar
+        authors = article.findall('.//Author')
+        author_names = []
+        for a in authors[:3]:
+            ln = a.findtext('LastName', '')
+            fn = a.findtext('ForeName', '')
+            if ln:
+                author_names.append(f"{ln} {fn}".strip())
+        if len(authors) > 1:
+            authors_str = author_names[0] + ' et al.' if author_names else 'Unknown'
+        else:
+            authors_str = author_names[0] if author_names else 'Unknown'
+
+        # PMID
+        pmid_el = article.find('.//PMID')
+        pmid = pmid_el.text.strip() if pmid_el is not None else ''
+
+        # DOI
+        doi = ''
+        for id_el in article.findall('.//ArticleId'):
+            if id_el.get('IdType') == 'doi':
+                doi = id_el.text.strip() if id_el.text else ''
+                break
+
+        # Tarih
+        pub_date = article.find('.//PubDate')
+        date_str = ''
+        if pub_date is not None:
+            year = pub_date.findtext('Year', '')
+            month = pub_date.findtext('Month', '')
+            day = pub_date.findtext('Day', '')
+            date_str = ' '.join(filter(None, [year, month, day]))
+
+        # URL
+        if doi:
+            url = f'https://doi.org/{doi}'
+        elif pmid:
+            url = f'https://pubmed.ncbi.nlm.nih.gov/{pmid}/'
+        else:
+            url = ''
+
+        print('---')
+        print(f'TITLE: {title}')
+        print(f'JOURNAL: {journal_name}')
+        print(f'AUTHORS: {authors_str}')
+        print(f'DATE: {date_str}')
+        print(f'PMID: {pmid}')
+        print(f'DOI: {doi}')
+        print(f'ABSTRACT: {abstract_text}')
+        print(f'URL: {url}')
+        print('---')
+    except Exception as e:
+        continue
+PYEOF
+
+    TOTAL_ARTICLES=$((TOTAL_ARTICLES + PMID_COUNT))
+
+done <<< "$JOURNALS"
+
+echo "Toplam $TOTAL_ARTICLES makale bulundu, $OUTPUT_FILE dosyasına yazıldı." >&2

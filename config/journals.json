@@ -1,0 +1,23 @@
+[
+  {"issn": "0028-0836", "name": "Nature", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0036-8075", "name": "Science", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0028-4793", "name": "New England Journal of Medicine", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0140-6736", "name": "The Lancet", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0092-8674", "name": "Cell", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0027-8424", "name": "PNAS", "tier": 1, "group": "multidisciplinary"},
+  {"issn": "0031-4005", "name": "Pediatrics", "tier": 1, "group": "pediatrics"},
+  {"issn": "2168-6203", "name": "JAMA Pediatrics", "tier": 1, "group": "pediatrics"},
+  {"issn": "0022-3476", "name": "Journal of Pediatrics", "tier": 1, "group": "pediatrics"},
+  {"issn": "0003-9888", "name": "Archives of Disease in Childhood", "tier": 1, "group": "pediatrics"},
+  {"issn": "0031-3998", "name": "Pediatric Research", "tier": 1, "group": "pediatrics"},
+  {"issn": "0090-3493", "name": "Critical Care Medicine", "tier": 1, "group": "critical_care"},
+  {"issn": "0342-4642", "name": "Intensive Care Medicine", "tier": 1, "group": "critical_care"},
+  {"issn": "1529-7535", "name": "Pediatric Critical Care Medicine", "tier": 1, "group": "critical_care"},
+  {"issn": "1364-8535", "name": "Critical Care", "tier": 1, "group": "critical_care"},
+  {"issn": "0012-3692", "name": "CHEST", "tier": 1, "group": "critical_care"},
+  {"issn": "1073-449X", "name": "American Journal of Respiratory and Critical Care Medicine", "tier": 1, "group": "critical_care"},
+  {"issn": "1664-3224", "name": "Frontiers in Immunology", "tier": 2, "group": "interdisciplinary"},
+  {"issn": "1545-7885", "name": "PLOS Biology", "tier": 2, "group": "interdisciplinary"},
+  {"issn": "1742-5689", "name": "Journal of the Royal Society Interface", "tier": 2, "group": "interdisciplinary"},
+  {"issn": "0303-2647", "name": "Biosystems", "tier": 2, "group": "interdisciplinary"}
+]

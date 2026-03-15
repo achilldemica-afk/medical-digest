@@ -11,6 +11,20 @@ source "$PROJECT_DIR/config/secrets.env"
 JOURNALS_JSON="$PROJECT_DIR/config/journals.json"
 OUTPUT_FILE="$PROJECT_DIR/data/raw_abstracts.txt"
 EUTILS_BASE="https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+
+# Gün bazlı reldate hesapla:
+#   Pazartesi (1) → 3 gün (Cuma+haftasonu)
+#   Cumartesi (6) → 2 gün (Perşembe+Cuma)
+#   Pazar     (7) → 3 gün (Cuma+Cumartesi)
+#   Diğer         → 1 gün
+DOW=$(date +%u)  # 1=Pzt ... 7=Paz
+case "$DOW" in
+  1) RELDATE=3 ;;  # Pazartesi
+  6) RELDATE=2 ;;  # Cumartesi
+  7) RELDATE=3 ;;  # Pazar
+  *) RELDATE=1 ;;
+esac
+echo "  Bugün DOW=$DOW, reldate=$RELDATE gün geriye bakılıyor." >&2
 TMP_XML="/tmp/meddigest_fetch_$$.xml"
 TMP_SEARCH="/tmp/meddigest_search_$$.json"
 PYTHON="$PROJECT_DIR/.venv/bin/python3"
@@ -37,7 +51,7 @@ while IFS='|' read -r ISSN JOURNAL_NAME; do
     echo "  → $JOURNAL_NAME ($ISSN) taranıyor..." >&2
 
     # esearch: son 24 saatteki makaleleri bul
-    SEARCH_URL="${EUTILS_BASE}/esearch.fcgi?db=pubmed&term=${ISSN}%5BISSN%5D&reldate=1&datetype=edat&retmax=50&retmode=json&api_key=${NCBI_API_KEY}"
+    SEARCH_URL="${EUTILS_BASE}/esearch.fcgi?db=pubmed&term=${ISSN}%5BISSN%5D&reldate=${RELDATE}&datetype=edat&retmax=50&retmode=json&api_key=${NCBI_API_KEY}"
 
     if ! curl -sf --retry 3 --retry-delay 2 "$SEARCH_URL" -o "$TMP_SEARCH" 2>/dev/null; then
         echo "    Uyarı: esearch başarısız, atlanıyor." >&2

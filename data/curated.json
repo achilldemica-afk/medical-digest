@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "title": "Ageing promotes metastasis via activation of the integrated stress response",
+    "journal": "Nature",
+    "authors": "Patel Angana A H et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10216-0",
+    "pmid": "41813904",
+    "summary": "Yaşlanmanın KRAS-mutant akciğer adenokarsinomunda primer tümör büyümesini sınırlarken, epigenetik ISR-ATF4 aktivasyonu yoluyla metastatik yayılımı artırdığı gösterildi. ATF4'ün genetik veya farmakolojik hedeflenmesi metastazı ortadan kaldırıyor; ATF4 tek başına aşırı eksprese edildiğinde ise metastaz indükleniyor.",
+    "why_interesting": "Yaşlanmanın tümör biyolojisinde paradoksal bir etki yarattığını gösteriyor: büyümeyi frenlerken yayılımı hızlandırıyor. Bu, yaşlı hastalarda neden daha küçük tümörlerin bile agresif metastaz yapabildiğini açıklıyor ve glutamin metabolizması üzerinden terapötik bir zafiyet noktası tanımlıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Natural maternal immunity protects neonates from Escherichia coli sepsis",
+    "journal": "Nature",
+    "authors": "Diep Raymond E et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10225-z",
+    "pmid": "41813901",
+    "summary": "E. coli sepsisli yenidoğanların, E. coli'yi tanıyan vertikal transfer edilmiş doğal antikorlarda seçici bir eksikliğe sahip olduğu gösterildi. Prekonsepsiyonel probiyotik EcN kolonizasyonu, geniş çapraz reaktiviteye sahip anti-E. coli IgG antikorlarını prime ederek yenidoğan fareleri koruyor.",
+    "why_interesting": "Neonatal sepsis duyarlılığını sadece immatür bağışıklıkla değil, patojene özgü maternal antikorlardaki spesifik bir eksiklikle açıklıyor. Bu, soruyu 'neden enfeksiyon oluyor' yerine 'neden daha sık olmuyor' şeklinde tersine çeviren bir perspektif sunuyor ve prekonsepsiyonel probiyotik kolonizasyon gibi önleyici stratejilere kapı açıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Microglia Rank signaling regulates GnRH neuronal function and the hypothalamic-pituitary-gonadal axis",
+    "journal": "Science",
+    "authors": "Collado-Sole Alejandro et al.",
+    "url": "https://doi.org/10.1126/science.aeb6999",
+    "pmid": "41818388",
+    "summary": "Hipotalamik mikroglianın RANK sinyal yolu aracılığıyla HPG eksenini kontrol ettiği keşfedildi. RANK kaybı, GnRH nöron fonksiyonunda bozulmaya ve hipogonadotropik hipogonadizme yol açıyor. Nadir RANK gen varyantları HH hastalarında da tanımlandı.",
+    "why_interesting": "Beynin bağışıklık hücreleri olan mikroglianın, üreme olgunlaşması ve fertiliteyi doğrudan düzenlediğini ortaya koyuyor. Nöroimmünoloji ile üreme endokrinolojisi arasında tamamen beklenmedik bir köprü kuruyor. RANK'ın kemik metabolizması dışında üreme fizyolojisinde kritik bir rol oynaması şaşırtıcı.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Autophagolysosomal exocytosis inverts Src kinase onto the cell surface in cancer",
+    "journal": "Science",
+    "authors": "Delaveris Corleone S et al.",
+    "url": "https://doi.org/10.1126/science.aec1778",
+    "pmid": "41818370",
+    "summary": "Klasik olarak hücre içi bir onkoprotein olan Src'nin, kanser hücrelerinde otofagolizozomal ekzositoz yoluyla hücre yüzeyine topolojik olarak ters çevrildiği keşfedildi. Bu ekstraselüler Src, antikor bazlı terapilerle hedeflenebiliyor ve ksenogreft modellerinde tümör öldürmeyi sağlıyor.",
+    "why_interesting": "Onkolojinin en iyi bilinen hücre içi onkoproteinlerinden birinin aslında kanser hücre yüzeyinde bulunabileceğini gösteriyor. Bu, 'ilaçlanamaz' olarak kabul edilen hücre içi hedeflerin antikor terapileriyle ulaşılabilir hale gelmesi anlamına geliyor. Tamamen yeni bir sekretuar mekanizma (ALE) tanımlıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Lifelong behavioral screen reveals an architecture of vertebrate aging",
+    "journal": "Science",
+    "authors": "Bedbrook Claire N et al.",
+    "url": "https://doi.org/10.1126/science.aea9795",
+    "pmid": "41818367",
+    "summary": "Afrika killifish'inde ergenlikten ölüme kadar sürekli yüksek çözünürlüklü davranış takibi yapıldı. Makine öğrenmesi modelleri genç yaştaki davranıştan gelecek yaşam süresini tahmin edebiliyor. Yaşlanma, keskin geçişlerle ayrılan stabil davranışsal evreler şeklinde ilerliyor.",
+    "why_interesting": "Yaşlanmanın kademeli bir bozulma değil, abrupt geçişlerle ayrılan yapılandırılmış evreler dizisi olduğunu ortaya koyuyor. Erken yaşam davranışından yaşam süresinin tahmin edilebilmesi, yaşlanmanın çok erken dönemde programlandığını düşündürüyor. Yaşlanma biyolojisine tamamen yeni bir mimari çerçeve sunuyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Pluripotent stem-cell-based screening uncovers sildenafil as a mitochondrial disease therapy",
+    "journal": "Cell",
+    "authors": "Zink Annika et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.008",
+    "pmid": "41819105",
+    "summary": "Leigh sendromu hasta iPSC'lerinden türetilen nöral hücrelerde 5.632 bileşik tarandı ve PDE5 inhibitörü sildenafil tedavi adayı olarak tanımlandı. Sildenafil, beyin organoidlerinde mitokondriyal defektleri düzeltiyor, hayvan modellerinde yaşam süresini uzatıyor ve 6 hastada motor fonksiyonu iyileştiriyor.",
+    "why_interesting": "Tedavisi olmayan ağır bir çocukluk hastalığı için, klinik güvenliği onlarca yıldır bilinen bir ilacın (Viagra) terapötik potansiyeli keşfedildi. iPSC tabanlı ilaç keşfinden hasta başı tedaviye kadar ulaşan nadir bir translasyonel başarı hikayesi. Bir PDE5 inhibitörünün mitokondriyal hastalıkta etkili olması tamamen beklenmedik.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Human-specific features of the cerebellum and ZP2-regulated synapse development",
+    "journal": "Cell",
+    "authors": "Kim Suel-Kee et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.014",
+    "pmid": "41819103",
+    "summary": "Primat serebellumunun karşılaştırmalı tek çekirdek transkriptomik profillemesinde, insana özgü granül hücrelerinde sperm reseptörü ZP2'nin zenginleştiği keşfedildi. ZP2, pontoserebellar sinaptik proteinleri azaltarak ve nöronal elektrofizyolojik aktiviteyi düşürerek insan serebellar sinaps düzenlemesinde görev yapıyor.",
+    "why_interesting": "Gamet etkileşimi için bilinen bir proteinin (ZP2) insan beyninde sinaps regülasyonu için ko-opte edilmesi, evrimsel biyolojide son derece nadir bir fonksiyonel yeniden amaçlandırma örneği. Üreme biyolojisi ile nörobilim arasında hiç beklenmeyecek bir bağlantı kuruyor ve insan serebellar evriminin özgünlüğüne yeni bir boyut ekliyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Respiratory viral infections prime accelerated lung cancer growth",
+    "journal": "Cell",
+    "authors": "Qian Wei et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.013",
+    "pmid": "41819102",
+    "summary": "Ağır COVID-19 ile hastaneye yatırılan hastaların sonradan artmış akciğer kanseri riskine sahip olduğu gösterildi. Ciddi viral pnömoni, kalıcı kromatin yeniden modelleme yoluyla akciğeri pro-tümör bir mikroçevreye dönüştürüyor. Aşılama, enfeksiyonla güçlenen tümör progresyonunu hafifletiyor.",
+    "why_interesting": "Viral pnömoni ile akciğer tümörigenezi arasında nedensel bir bağlantı kuruyor ve 'enflamatuvar hafıza' kavramını onkolojiye taşıyor. Kronik enflamasyon-kanser ilişkisi bilinse de, akut viral enfeksiyonun epigenetik yeniden programlama yoluyla uzun vadeli kanser riskini artırması ve aşılamanın bunu önleyebilmesi paradigma değiştirici.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Microbiome-produced nicotinic acid controls colon regional identity and injury susceptibility",
+    "journal": "Cell",
+    "authors": "Rispal Jérémie et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.007",
+    "pmid": "41812662",
+    "summary": "Proksimal kolon mikrobiyomunun yüksek düzeyde nikotinik asit ürettiği ve bunun PPARα ekspresyonunu indükleyerek proksimal kolonosit kimliğini belirlediği gösterildi. Mikrobiyom kaynaklı bölgesel kimlik, doku hasarına karşı koruma sağlıyor.",
+    "why_interesting": "Bağırsak epitelinin bölgesel kimliğinin konakçı genetiği tarafından değil, mikrobiyom metabolitleri tarafından belirlendiğini ortaya koyuyor. Bu, bağırsakta hastalık duyarlılığının neden bölgesel farklılık gösterdiğine yeni bir açıklama getiriyor ve mikrobiyom-metabolit-epitel aksını terapötik hedef olarak öne sürüyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Reducing PTSD symptoms through unconscious intervention",
+    "journal": "PNAS",
+    "authors": "Yang Qing et al.",
+    "url": "https://doi.org/10.1073/pnas.2521088123",
+    "pmid": "41824495",
+    "summary": "Travma ipuçlarının bilinçaltı (subliminal) olarak sunulması ve bilateral göz hareketi ile PTSD semptomlarının azaltılabildiği gösterildi. PTSD hastalarında intrüzyon sıklığı %56 azaldı ve etki en az 2 ay sürdü. Toplam müdahale süresi 2 saatten az.",
+    "why_interesting": "Konvansiyonel travma terapilerinin temel varsayımını sorguluyor: travma anılarıyla bilinçli yüzleşme gerekli olmayabilir. Bilinçaltı müdahale, geleneksel maruziyet terapisini tolere edemeyen ağır hastaların tedavisine olanak tanıyor. 2 saatlik minimal stresli bir protokolün 2 aylık etki göstermesi dikkat çekici.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Translocation of bacteria from the gut to the brain in mice",
+    "journal": "PLOS Biology",
+    "authors": "Thapa Manoj et al.",
+    "url": "https://doi.org/10.1371/journal.pbio.3003652",
+    "pmid": "41818176",
+    "summary": "Yüksek yağlı diyet alan farelerde bakterilerin bağırsaktan vagus siniri aracılığıyla doğrudan beyne transloke olduğu gösterildi. Bakteriler kanda veya diğer sistemik bölgelerde bulunmuyor. Alzheimer, Parkinson ve otizm fare modellerinde de beyin bakterileri tespit edildi.",
+    "why_interesting": "Bağırsak-beyin ekseni genellikle metabolit ve sinyal molekülleri üzerinden tartışılır; canlı bakterilerin vagus siniri boyunca kan dolaşımını atlayarak doğrudan beyne ulaşması tamamen yeni bir translokasyon aksı ortaya koyuyor. Nörodejeneratif hastalık modellerinde de gözlenmesi, bağırsak-beyin bağlantısına radikal bir mekanistik boyut ekliyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Polymerase trapping as the mechanism of H5 highly pathogenic avian influenza virus genesis",
+    "journal": "Science",
+    "authors": "Funk Mathis et al.",
+    "url": "https://doi.org/10.1126/science.adr6632",
+    "pmid": "41818353",
+    "summary": "H5 yüksek patojenli kuş gribi virüslerinin oluşumunda, RNA yapılarının influenza polimerazını purin-zengin dizilerde tuzaklayarak nükleotid insersiyonlarını tetiklediği gösterildi. H5 benzeri diziler ve yapılar H6 hemaglütinine aktarıldığında da multibasik kırılma bölgesi oluşturan insersiyonlar gözlendi.",
+    "why_interesting": "Onlarca yıldır çözülememiş bir soruya yanıt veriyor: düşük patojenli kuş gribi virüsleri yüksek patojenli hale nasıl geçiyor? RNA yapısı güdümlü bir çeşitlilik oluşturma mekanizması tanımlıyor. Bu mekanizma diğer RNA virüslerinde de geçerli olabilir ve pandemik risk değerlendirmesi için kritik öneme sahip.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Reversibility and β-sheet formation are decoupled in tau condensate aging",
+    "journal": "PNAS",
+    "authors": "Fischer Charlotte M et al.",
+    "url": "https://doi.org/10.1073/pnas.2522993123",
+    "pmid": "41824494",
+    "summary": "Tau kondensatlarının yaşlanması sırasında β-tabaka zenginleşmesi ve tersinmezliğin farklı hızlarda ve faz uzayının farklı bölgelerinde ortaya çıktığı gösterildi. β-tabaka açısından zengin ama termodinamik olarak tersinir, ve tersinmez ama β-tabaka yapısı olmayan ara türler tanımlandı.",
+    "why_interesting": "Tau agregasyonunun fibril yönünde basit doğrusal bir ilerleme olduğu varsayımını yıkıyor. Patolojik son durumun iki temel özelliğinin (yapısal dönüşüm ve tersinmezlik) mekanistik olarak ayrık olduğunu göstermek, Alzheimer terapötiklerinde yeni müdahale noktaları tanımlıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Strong and brittle lithium dendrites",
+    "journal": "Science",
+    "authors": "Ai Qing et al.",
+    "url": "https://doi.org/10.1126/science.adu9988",
+    "pmid": "41818378",
+    "summary": "Bireysel lityum dendritlerinin mekanik özellikleri ölçülerek, dendriitlerin beklenmedik şekilde güçlü ve kırılgan olduğu bulundu (kırılma stresi >150 MPa). Bu davranış, katı elektrolit arayüzü kısıtlamalarından ve nano-ölçek güçlendirmeden kaynaklanıyor.",
+    "why_interesting": "Lityum metal pillerin temel tasarım stratejisi 'mekanik olarak güçlü elektrolit ve separatörler kullan' varsayımına dayanıyordu, çünkü lityumun yumuşak olduğu düşünülüyordu. Dendriitlerin aslında çok güçlü ve kırılgan olduğunun keşfi, pil tasarım paradigmasını kökten değiştiriyor ve ölü lityum oluşumu için alternatif mekanizmalar sunuyor.",
+    "category": "beklenmedik-bulgu"
+  }
+]

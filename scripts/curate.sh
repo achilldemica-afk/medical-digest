@@ -4,6 +4,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+PYTHON="$PROJECT_DIR/.venv/bin/python3"
 
 PROMPT_FILE="$PROJECT_DIR/config/curator_prompt.txt"
 INPUT_FILE="$PROJECT_DIR/data/raw_abstracts.txt"
@@ -25,14 +26,12 @@ echo "  Kürasyon başlıyor ($(wc -l < "$INPUT_FILE") satır)..." >&2
     < "$INPUT_FILE" > "$OUTPUT_FILE.tmp" 2>/dev/null
 
 # JSON başında/sonunda olası markdown code fences temizle
-python3 -c "
+"$PYTHON" -c "
 import sys, re
 content = open('$OUTPUT_FILE.tmp').read().strip()
-# ```json ... ``` bloğunu bul ve çıkar
 match = re.search(r'^\`\`\`(?:json)?\s*([\s\S]*?)\`\`\`\s*$', content)
 if match:
     content = match.group(1).strip()
-# Yine de [ ile başlamazsa boş array yaz
 if not content.startswith('['):
     content = '[]'
 print(content)
@@ -41,10 +40,10 @@ print(content)
 rm -f "$OUTPUT_FILE.tmp"
 
 # Validate JSON
-if ! python3 -c "import json; json.load(open('$OUTPUT_FILE'))" 2>/dev/null; then
+if ! "$PYTHON" -c "import json; json.load(open('$OUTPUT_FILE'))" 2>/dev/null; then
     echo "Uyarı: Geçersiz JSON, boş array yazılıyor." >&2
     echo "[]" > "$OUTPUT_FILE"
 fi
 
-COUNT=$(python3 -c "import json; print(len(json.load(open('$OUTPUT_FILE'))))" 2>/dev/null || echo 0)
+COUNT=$("$PYTHON" -c "import json; print(len(json.load(open('$OUTPUT_FILE'))))" 2>/dev/null || echo 0)
 echo "  Kürasyon tamamlandı: $COUNT makale seçildi." >&2

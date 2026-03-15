@@ -32,7 +32,7 @@ else
 fi
 
 log "HTML build başlıyor..."
-if python3 "$SCRIPT_DIR/build.py" 2>> "$LOG"; then
+if "$PROJECT_DIR/.venv/bin/python3" "$SCRIPT_DIR/build.py" 2>> "$LOG"; then
     log "Build tamamlandı."
 else
     log "HATA: Build başarısız."

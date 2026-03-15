@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/Users/barisyurtsever/medical-digest/.venv/bin/python3
 """build.py — curated.json'dan statik HTML üretir."""
 
 import json

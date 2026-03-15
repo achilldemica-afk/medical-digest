@@ -12,18 +12,15 @@ JOURNALS_JSON="$PROJECT_DIR/config/journals.json"
 OUTPUT_FILE="$PROJECT_DIR/data/raw_abstracts.txt"
 EUTILS_BASE="https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
-# Gün bazlı reldate hesapla:
-#   Pazartesi (1) → 3 gün (Cuma+haftasonu)
-#   Cumartesi (6) → 2 gün (Perşembe+Cuma)
-#   Pazar     (7) → 3 gün (Cuma+Cumartesi)
-#   Diğer         → 1 gün
+# Gün bazlı reldate: RELDATE env var ile override edilebilir (test için)
 DOW=$(date +%u)  # 1=Pzt ... 7=Paz
-case "$DOW" in
-  1) RELDATE=3 ;;  # Pazartesi
-  6) RELDATE=2 ;;  # Cumartesi
-  7) RELDATE=3 ;;  # Pazar
-  *) RELDATE=1 ;;
-esac
+if [ -z "${RELDATE:-}" ]; then
+  case "$DOW" in
+    1) RELDATE=3 ;;  # Pazartesi → Cuma'yı yakala
+    6|7) echo "  Haftasonu, digest yok. Çıkılıyor." >&2; exit 0 ;;
+    *) RELDATE=1 ;;  # Salı–Cuma → bir önceki gün
+  esac
+fi
 echo "  Bugün DOW=$DOW, reldate=$RELDATE gün geriye bakılıyor." >&2
 TMP_XML="/tmp/meddigest_fetch_$$.xml"
 TMP_SEARCH="/tmp/meddigest_search_$$.json"

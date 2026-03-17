@@ -31,6 +31,12 @@ else
     echo "[]" > "$PROJECT_DIR/data/curated.json"
 fi
 
+# Kürasyon sonrası arşive kopyala (server buradan okur)
+ARCHIVE_DIR="$HOME/.academic-editor/discover-archive"
+mkdir -p "$ARCHIVE_DIR"
+TODAY=$(date +%Y-%m-%d)
+cp "$PROJECT_DIR/data/curated.json" "$ARCHIVE_DIR/$TODAY.json" 2>/dev/null || true
+
 log "HTML build başlıyor..."
 if "$PROJECT_DIR/.venv/bin/python3" "$SCRIPT_DIR/build.py" 2>> "$LOG"; then
     log "Build tamamlandı."

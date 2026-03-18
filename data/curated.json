@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Senolytic treatment induces oligodendrocyte dysfunction and demyelination in the corpus callosum.",
+    "journal": "PNAS",
+    "authors": "Lombardo Evan R et al.",
+    "url": "https://doi.org/10.1073/pnas.2524897123",
+    "pmid": "41843680",
+    "summary": "Yaşlanma karşıtı senolitik ilaç kombinasyonu dasatinib+quercetin (D+Q), hem genç hem yaşlı farelerde korpus kallozumda belirgin demiyelinizasyona yol açtı. In vitro'da oligodendrosit öncü hücreler D+Q ile tedavi edildiğinde miyelin bazik protein üretimi dramatik biçimde azaldı ve ER stres yolakları aktive oldu. Hücre ölümü gözlemlenmedi; yani sorun hücre kaybı değil, oligodendrosit fonksiyon bozukluğudur.",
+    "why_interesting": "Senolitikler MS ilerleme tedavisi ve genel yaşlanma karşıtı strateji olarak heyecanla araştırılmaktadır; bu çalışma tam da hedeflenen hastalıkla (MS) benzer patoloji oluşturduğunu göstererek büyük bir paradoks ortaya koyuyor. D+Q ile tedavi edilen oligodendrositlerin MS lezyonlarındaki oligodendrositlere benzediği bulguso, bu ilaç sınıfının merkezi sinir sistemi güvenliğini baştan sorgulatıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Microglial fructose metabolism is essential for glioblastoma growth.",
+    "journal": "PNAS",
+    "authors": "Billingham Leah K et al.",
+    "url": "https://doi.org/10.1073/pnas.2521256123",
+    "pmid": "41843684",
+    "summary": "GBM mikroçevresinde yalnızca mikroglia GLUT5 fruktozunu eksprese eder ve fruktozu metabolize edebilen tek bağışıklık hücresidir. GLUT5 global delesyonu tümör büyümesine karşı derin bir direniş sağladı; bu etki periferik immün kompartmandan bağımsız olarak mikrogliaya özgü fruktoz metabolizmasından kaynaklanıyordu. GLUT5 yokluğunda CD8+ T hücre infiltrasyonu ve aktivasyonu dramatik biçimde arttı.",
+    "why_interesting": "GBM'nin bağışıklıktan kaçış mekanizmaları T hücresi yorgunluğu ve checkpoint ligandları üzerine yoğunlaşmış; ancak bu çalışma mikroglia içi fruktoz metabolizmasının adaptif bağışıklığı baskıladığını ortaya koyuyor. Beyne özgü bu metabolik 'immünosupresyon anahtarı' tamamen yeni bir terapötik hedef kategorisi açıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "ATP13A2 restrains macrophage NLRP3 inflammasome activation to repress neurodegeneration via modulating mitochondrial homeostasis.",
+    "journal": "PNAS",
+    "authors": "Zou Ziqi et al.",
+    "url": "https://doi.org/10.1073/pnas.2534066123",
+    "pmid": "41843675",
+    "summary": "PD hastalarında bulunan ATP13A2 mutasyonlarının büyük çoğunluğu protein kaybına yol açıyor. Miyeloid ATP13A2 eksikliği lizozomal alkalinizasyon → mitokondriyal disfonksiyon zinciri üzerinden NLRP3 inflamazom hiperaktivasyonuna neden oluyor ve farelerde PD benzeri fenotip oluşturuyor. L927P mutasyonu taşıyan bir PD hastasının makrofajlarında da aynı mekanizma ex vivo olarak doğrulandı.",
+    "why_interesting": "Parkinson hastalığı patogenezi onlarca yıl nöron-merkezli düşünüldü; bu çalışma genetik PD riskinin makrofaj işlev bozukluğu üzerinden nörodejenerasyonu nasıl hızlandırdığını gösteriyor. Nöro-immün eksen üzerinden çalışan yeni bir mekanizma, immünoterapi yaklaşımlarını PD'ye taşıma imkânı sunuyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "The natural human adaptive IgG-specific immune response is skewed towards non-protective tail domains of DNABII proteins.",
+    "journal": "Frontiers in Immunology",
+    "authors": "Wilbanks Kathryn Q et al.",
+    "url": "https://doi.org/10.3389/fimmu.2026.1694547",
+    "pmid": "41836403",
+    "summary": "Kronik otitis media, KOAH, kistik fibrozis hastalarından ve sağlıklı bireylerden alınan 77 serumun 74'ünde (%96) doğal IgG yanıtı, DNABII proteinlerinin biyofilm koruyucu 'uç' bölgeleri yerine biyofilm dispersiyonunu tetiklemeyen 'kuyruk' bölgelerine tercihli bağlanıyordu. Bu yanıt hastalık durumundan bağımsız, evrensel görünüyor.",
+    "why_interesting": "Kronik biyofilm enfeksiyonlarının neden bağışıklık sistemini aşabildiğini açıklayan güçlü bir mekanizma: doğal antikor yanıtı sistematik olarak 'yanlış' epitopu hedefliyor. Bu, biyofilm hedefli aşı tasarımında epitop seçiminin kritik önemini doğrulayan ve konvansiyonel 'doğal bağışıklık = koruyucu' varsayımını sorgulayan beklenmedik bir bulgudur.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "High-Flow or Standard Oxygen in Acute Hypoxemic Respiratory Failure.",
+    "journal": "New England Journal of Medicine",
+    "authors": "Frat Jean-Pierre et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2516087",
+    "pmid": "41841715",
+    "summary": "1110 akut hipoksemik solunum yetmezliği hastasında (PaO2/FiO2 ≤200) yüksek akışlı nazal kanül ile standart oksijen tedavisini karşılaştıran çok merkezli RCT'de 28. gün mortalitesi her iki grupta da %14.6 olarak eşit bulundu. Entübasyon oranı yüksek akışlı grupta %42.4'e karşı %48.4 ile istatistiksel sınırda daha düşüktü; ancak kardiyak arrest/pnömotoraks oranı yüksek akışlı grupta daha fazlaydı (%2.3'e karşı %1.1).",
+    "why_interesting": "Yüksek akışlı nazal kanül son yıllarda ARDS yönetiminde hızla benimsenmiş; bu büyük faz 3 RCT mortalite üzerinde hiçbir fayda göstermedi ve ciddi advers olayları artırdığına dair sinyal verdi. Klinisyenlerin güçlü bir kanıt olmaksızın rutin pratiğe aldığı bir intervensiyonun sorgulandığı önemli bir çalışma.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Prehospital Whole Blood in Traumatic Hemorrhage - a Randomized Controlled Trial.",
+    "journal": "New England Journal of Medicine",
+    "authors": "Smith Jason E et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2516043",
+    "pmid": "41841706",
+    "summary": "İngiltere'de 10 hava ambulansı merkezinde yürütülen pragmatik faz 3 RCT'de majör travmatik kanaması olan 616 hasta prehospital tam kan (2 ünite) veya standart kan bileşenleri (2'şer ünite eritrosit + plazma) ile randomize edildi. 24 saatte ölüm veya masif transfüzyon kompozit primer sonucu her iki grupta ~%48 ile benzerdi (RR 1.02, p=0.84).",
+    "why_interesting": "Tam kan prehospital travma resüsitasyonunda son yıllarda güçlü savunuculukla yaygınlaşmaktaydı; bu faz 3 RCT üstünlük olmadığını net biçimde gösteriyor. Askeri tıptan sivil uygulamaya transfer edilen bir paradigmanın ilk büyük randomize testi olarak sürpriz bir null result sunuyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Pyruvate kinase activators in hereditary haemolytic anaemias: current evidence and clinical potential.",
+    "journal": "The Lancet",
+    "authors": "Doeven Thomas et al.",
+    "url": "https://doi.org/10.1016/S0140-6736(26)00150-9",
+    "pmid": "41833294",
+    "summary": "Kalıtsal hemolitik anemilerde (talasemi, orak hücre, membran bozuklukları, PK eksikliği) primer genetik defektin ötesinde eritrositlerde ortak bir metabolik bozukluk bulunduğu gösterildi. Piruvat kinaz aktivatörleri glikolizi artırarak ATP üretimini ve hücresel homeostazı iyileştiriyor; PK eksikliğinde onaylı olan bu yaklaşım diğer hemolitik anemilerde de klinik etkinlik kanıtladı.",
+    "why_interesting": "Her hemolitik aneminin kendi özgün genetik mekanizması üzerinden tedavi edilmesi gerektiği düşünülürken, bu çerçeve tüm bu hastalıkları ortak bir metabolik yolakla birleştiriyor. 'Genetik hastalığı metabolik düzeltmeyle tedavi etmek' yaklaşımı, farklı monogenik hastalıklara tek bir ajan uygulanabileceğini gösteren güçlü bir yeni çerçeve sunuyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Three-dimensional high-content imaging of unstained soft tissue with subcellular resolution using a laboratory-based X-ray microscope.",
+    "journal": "PNAS",
+    "authors": "Esposito Michela et al.",
+    "url": "https://doi.org/10.1073/pnas.2525239123",
+    "pmid": "41843669",
+    "summary": "Faz-kontrast X-ışını mikroskobu kullanılarak boyanmamış yumuşak dokudan subselüler çözünürlükte 3 boyutlu görüntü elde edildi. Elektronik yoğunluğun doğrudan ölçümü, hücre çekirdeği segmentasyonu ve makine öğrenmesi tabanlı stil transferiyle sanal H&E boyama gerçekleştirildi; volümetrik veri mevcut histopatoloji araçlarıyla uyumlu.",
+    "why_interesting": "Histoloji bir buçuk yüzyıldır dokuyu yıkıp 2D dilimleyerek çalışıyor; bu yaklaşım boyama ve sectioning olmaksızın, standart laboratuvar ortamında tam 3D sanal H&E sunuyor. Biyopsi materyalini tüketmeden hacimsel doku mimarisini inceleme imkânı, patoloji pratiğini kökten değiştirebilecek metodolojik bir sıçrama.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Insulin resistance prediction from wearables and routine blood biomarkers.",
+    "journal": "Nature",
+    "authors": "Metwally Ahmed A et al.",
+    "url": "https://doi.org/10.1038/s41586-026-10179-2",
+    "pmid": "41840032",
+    "summary": "1165 kişilik büyük, uzaktan yürütülen WEAR-ME çalışmasında giyilebilir sensör zaman serisi verileri + rutin kan biyobelirteçleriyle eğitilen derin sinir ağı, HOMA-IR tabanlı insülin direncini AUROC 0.80 ile tahmin etti. 40 milyon saatlik sensör verisiyle ön eğitimli giyilebilir temel modeli (WFM) ince ayarlanınca, demografik + açlık glukozu + lipid paneline WFM eklenmesi AUROC'u 0.76'dan 0.88'e çıkardı.",
+    "why_interesting": "İnsülin direnci testi pahalı ve erişimi kısıtlı; bu çalışma standart bir akıllı saatin klinik test performansına yakın IR tespiti yapabileceğini gösteriyor. Giyilebilir temel modelin ince ayar gerektiren ama veri-verimli olması, ölçeklenebilir erken metabolik risk tespitinde paradigma değişikliği potansiyeli taşıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Phosphate scarcity governs methane production in the global open ocean.",
+    "journal": "PNAS",
+    "authors": "Wang Shengyu et al.",
+    "url": "https://doi.org/10.1073/pnas.2521235123",
+    "pmid": "41843686",
+    "summary": "Açık okyanusun oksijenlı yüzey sularındaki metan süpersatürasyonunu veri-asimile eden bir modelyle test eden çalışma, yalnızca fosfat kıtlığına bağlanan metan üretiminin gözlemlenen küresel dağılımı açıklayabildiğini buldu. Mekanizma, metilfosfanat bileşiğinin PO4-kısıtlı mikrobiyal yarılmasıdır; oluşan metan %90'dan fazla oranda atmosfere kaçıyor. Gelecek okyanusun ısınması ve stratifikasyonu fosfat kıtlığını artırarak metan emisyonlarını iki katına çıkarabilir.",
+    "why_interesting": "Okyanusun oksijensiz değil oksijenlı katmanlarındaki metan üretimi 'okyanus metan paradoksu' olarak onlarca yıldır bilinmekte ama mekanizması tartışmalıydı. Bu çalışma hem mekanizmayı çözüyor (metilfosfanat → PO4 limitasyonu) hem de iklim ısınması-doğal sera gazı geri beslemesi döngüsünü nicelleştiriyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Origin of eukaryotic plasmalogen biosynthesis by horizontal gene transfer from myxobacteria.",
+    "journal": "PNAS",
+    "authors": "Trinidad-Barnech Juan Manuel et al.",
+    "url": "https://doi.org/10.1073/pnas.2529738123",
+    "pmid": "41843685",
+    "summary": "Kapsamlı filogenomik analiz ve enzimatik doğrulama ile plazmalogen biyosentezinin temel enzimi PEDS1'in (ve muhtemelen FAR ve GNPAT'ın) miksebakterilerden yatay gen transferiyle erken bir ökaryot ataya geçtiği gösterildi. Bu bakteri kaynaklı yolak Amorphea ve Discoba üst gruplarında korundu, bitkilerde ise kayboldu.",
+    "why_interesting": "Hayvan zarlarında bol bulunan ve insan sağlığı için kritik olan plazmalojenler gizemli bir evrimsel geçmişe sahipti; bu çalışma kökenin prokaryot-ökaryot yatay gen transferi olduğunu ortaya koyuyor. Ökaryotik lipid metabolizmasının temel bir bileşeninin bakteri genlerine dayandığı, disiplinler arası (evrimsel biyoloji ↔ insan lipid metabolizması) güçlü bir bulgu.",
+    "category": "disiplinler-arası"
+  }
+]

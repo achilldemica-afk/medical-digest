@@ -1,112 +1,122 @@
 [
   {
-    "title": "Senolytic treatment induces oligodendrocyte dysfunction and demyelination in the corpus callosum.",
-    "journal": "PNAS",
-    "authors": "Lombardo Evan R et al.",
-    "url": "https://doi.org/10.1073/pnas.2524897123",
-    "pmid": "41843680",
-    "summary": "Yaşlanma karşıtı senolitik ilaç kombinasyonu dasatinib+quercetin (D+Q), hem genç hem yaşlı farelerde korpus kallozumda belirgin demiyelinizasyona yol açtı. In vitro'da oligodendrosit öncü hücreler D+Q ile tedavi edildiğinde miyelin bazik protein üretimi dramatik biçimde azaldı ve ER stres yolakları aktive oldu. Hücre ölümü gözlemlenmedi; yani sorun hücre kaybı değil, oligodendrosit fonksiyon bozukluğudur.",
-    "why_interesting": "Senolitikler MS ilerleme tedavisi ve genel yaşlanma karşıtı strateji olarak heyecanla araştırılmaktadır; bu çalışma tam da hedeflenen hastalıkla (MS) benzer patoloji oluşturduğunu göstererek büyük bir paradoks ortaya koyuyor. D+Q ile tedavi edilen oligodendrositlerin MS lezyonlarındaki oligodendrositlere benzediği bulguso, bu ilaç sınıfının merkezi sinir sistemi güvenliğini baştan sorgulatıyor.",
-    "category": "paradigma-kırıcı"
-  },
-  {
-    "title": "Microglial fructose metabolism is essential for glioblastoma growth.",
-    "journal": "PNAS",
-    "authors": "Billingham Leah K et al.",
-    "url": "https://doi.org/10.1073/pnas.2521256123",
-    "pmid": "41843684",
-    "summary": "GBM mikroçevresinde yalnızca mikroglia GLUT5 fruktozunu eksprese eder ve fruktozu metabolize edebilen tek bağışıklık hücresidir. GLUT5 global delesyonu tümör büyümesine karşı derin bir direniş sağladı; bu etki periferik immün kompartmandan bağımsız olarak mikrogliaya özgü fruktoz metabolizmasından kaynaklanıyordu. GLUT5 yokluğunda CD8+ T hücre infiltrasyonu ve aktivasyonu dramatik biçimde arttı.",
-    "why_interesting": "GBM'nin bağışıklıktan kaçış mekanizmaları T hücresi yorgunluğu ve checkpoint ligandları üzerine yoğunlaşmış; ancak bu çalışma mikroglia içi fruktoz metabolizmasının adaptif bağışıklığı baskıladığını ortaya koyuyor. Beyne özgü bu metabolik 'immünosupresyon anahtarı' tamamen yeni bir terapötik hedef kategorisi açıyor.",
-    "category": "paradigma-kırıcı"
-  },
-  {
-    "title": "ATP13A2 restrains macrophage NLRP3 inflammasome activation to repress neurodegeneration via modulating mitochondrial homeostasis.",
-    "journal": "PNAS",
-    "authors": "Zou Ziqi et al.",
-    "url": "https://doi.org/10.1073/pnas.2534066123",
-    "pmid": "41843675",
-    "summary": "PD hastalarında bulunan ATP13A2 mutasyonlarının büyük çoğunluğu protein kaybına yol açıyor. Miyeloid ATP13A2 eksikliği lizozomal alkalinizasyon → mitokondriyal disfonksiyon zinciri üzerinden NLRP3 inflamazom hiperaktivasyonuna neden oluyor ve farelerde PD benzeri fenotip oluşturuyor. L927P mutasyonu taşıyan bir PD hastasının makrofajlarında da aynı mekanizma ex vivo olarak doğrulandı.",
-    "why_interesting": "Parkinson hastalığı patogenezi onlarca yıl nöron-merkezli düşünüldü; bu çalışma genetik PD riskinin makrofaj işlev bozukluğu üzerinden nörodejenerasyonu nasıl hızlandırdığını gösteriyor. Nöro-immün eksen üzerinden çalışan yeni bir mekanizma, immünoterapi yaklaşımlarını PD'ye taşıma imkânı sunuyor.",
-    "category": "paradigma-kırıcı"
-  },
-  {
-    "title": "The natural human adaptive IgG-specific immune response is skewed towards non-protective tail domains of DNABII proteins.",
-    "journal": "Frontiers in Immunology",
-    "authors": "Wilbanks Kathryn Q et al.",
-    "url": "https://doi.org/10.3389/fimmu.2026.1694547",
-    "pmid": "41836403",
-    "summary": "Kronik otitis media, KOAH, kistik fibrozis hastalarından ve sağlıklı bireylerden alınan 77 serumun 74'ünde (%96) doğal IgG yanıtı, DNABII proteinlerinin biyofilm koruyucu 'uç' bölgeleri yerine biyofilm dispersiyonunu tetiklemeyen 'kuyruk' bölgelerine tercihli bağlanıyordu. Bu yanıt hastalık durumundan bağımsız, evrensel görünüyor.",
-    "why_interesting": "Kronik biyofilm enfeksiyonlarının neden bağışıklık sistemini aşabildiğini açıklayan güçlü bir mekanizma: doğal antikor yanıtı sistematik olarak 'yanlış' epitopu hedefliyor. Bu, biyofilm hedefli aşı tasarımında epitop seçiminin kritik önemini doğrulayan ve konvansiyonel 'doğal bağışıklık = koruyucu' varsayımını sorgulayan beklenmedik bir bulgudur.",
-    "category": "paradigma-kırıcı"
-  },
-  {
-    "title": "High-Flow or Standard Oxygen in Acute Hypoxemic Respiratory Failure.",
+    "title": "Left Atrial Appendage Closure or Medical Therapy in Atrial Fibrillation.",
     "journal": "New England Journal of Medicine",
-    "authors": "Frat Jean-Pierre et al.",
-    "url": "https://doi.org/10.1056/NEJMoa2516087",
-    "pmid": "41841715",
-    "summary": "1110 akut hipoksemik solunum yetmezliği hastasında (PaO2/FiO2 ≤200) yüksek akışlı nazal kanül ile standart oksijen tedavisini karşılaştıran çok merkezli RCT'de 28. gün mortalitesi her iki grupta da %14.6 olarak eşit bulundu. Entübasyon oranı yüksek akışlı grupta %42.4'e karşı %48.4 ile istatistiksel sınırda daha düşüktü; ancak kardiyak arrest/pnömotoraks oranı yüksek akışlı grupta daha fazlaydı (%2.3'e karşı %1.1).",
-    "why_interesting": "Yüksek akışlı nazal kanül son yıllarda ARDS yönetiminde hızla benimsenmiş; bu büyük faz 3 RCT mortalite üzerinde hiçbir fayda göstermedi ve ciddi advers olayları artırdığına dair sinyal verdi. Klinisyenlerin güçlü bir kanıt olmaksızın rutin pratiğe aldığı bir intervensiyonun sorgulandığı önemli bir çalışma.",
-    "category": "beklenmedik-bulgu"
+    "authors": "Landmesser Ulf et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2513310",
+    "pmid": "41849741",
+    "summary": "912 hastayı kapsayan çok merkezli randomize CLOSURE-AF çalışması, yüksek inme ve kanama riski taşıyan AF hastalarında LAA kapatma işleminin hekim yönlendirmeli en iyi medikal tedaviye (DOAK dahil) non-inferior olmadığını gösterdi. Birincil bileşik son noktada (inme, sistemik emboli, majör kanama, kardiyovasküler ölüm) LAA grubunda daha fazla olay gözlemlendi; 3 yıllık medyan takipte non-inferiorite sınırı aşıldı.",
+    "why_interesting": "LAA kapatmayı antikoagülasyona güçlü bir alternatif olarak konumlandıran mevcut klinik coşkuyu doğrudan sorguluyor; özellikle DOAK'a uygun olan yüksek riskli hastalarda cihaz tedavisinin en azından eşdeğer olduğu varsayımını çürütüyor. Bu sonuç kılavuzları ve klinik karar verme süreçlerini köklü biçimde etkileyebilecek nitelikte.",
+    "category": "paradigma-kırıcı"
   },
   {
-    "title": "Prehospital Whole Blood in Traumatic Hemorrhage - a Randomized Controlled Trial.",
-    "journal": "New England Journal of Medicine",
-    "authors": "Smith Jason E et al.",
-    "url": "https://doi.org/10.1056/NEJMoa2516043",
-    "pmid": "41841706",
-    "summary": "İngiltere'de 10 hava ambulansı merkezinde yürütülen pragmatik faz 3 RCT'de majör travmatik kanaması olan 616 hasta prehospital tam kan (2 ünite) veya standart kan bileşenleri (2'şer ünite eritrosit + plazma) ile randomize edildi. 24 saatte ölüm veya masif transfüzyon kompozit primer sonucu her iki grupta ~%48 ile benzerdi (RR 1.02, p=0.84).",
-    "why_interesting": "Tam kan prehospital travma resüsitasyonunda son yıllarda güçlü savunuculukla yaygınlaşmaktaydı; bu faz 3 RCT üstünlük olmadığını net biçimde gösteriyor. Askeri tıptan sivil uygulamaya transfer edilen bir paradigmanın ilk büyük randomize testi olarak sürpriz bir null result sunuyor.",
-    "category": "beklenmedik-bulgu"
-  },
-  {
-    "title": "Pyruvate kinase activators in hereditary haemolytic anaemias: current evidence and clinical potential.",
-    "journal": "The Lancet",
-    "authors": "Doeven Thomas et al.",
-    "url": "https://doi.org/10.1016/S0140-6736(26)00150-9",
-    "pmid": "41833294",
-    "summary": "Kalıtsal hemolitik anemilerde (talasemi, orak hücre, membran bozuklukları, PK eksikliği) primer genetik defektin ötesinde eritrositlerde ortak bir metabolik bozukluk bulunduğu gösterildi. Piruvat kinaz aktivatörleri glikolizi artırarak ATP üretimini ve hücresel homeostazı iyileştiriyor; PK eksikliğinde onaylı olan bu yaklaşım diğer hemolitik anemilerde de klinik etkinlik kanıtladı.",
-    "why_interesting": "Her hemolitik aneminin kendi özgün genetik mekanizması üzerinden tedavi edilmesi gerektiği düşünülürken, bu çerçeve tüm bu hastalıkları ortak bir metabolik yolakla birleştiriyor. 'Genetik hastalığı metabolik düzeltmeyle tedavi etmek' yaklaşımı, farklı monogenik hastalıklara tek bir ajan uygulanabileceğini gösteren güçlü bir yeni çerçeve sunuyor.",
+    "title": "Mitochondrial control of glycerolipid synthesis by a PEP shuttle.",
+    "journal": "Cell",
+    "authors": "Yamamuro Tadashi et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.017",
+    "pmid": "41850288",
+    "summary": "SLC25A35 adlı yeni bir mitokondriyal taşıyıcının fosfoenolpirüvatı (PEP) mitokondriden sitozole ihraç ederek adiposit ve hepatositlerdeki gliserolipid sentezini kontrol ettiği gösterildi. SLC25A35'in yapısal analizi pH gradyanına bağımlı PEP transportunu doğruladı; obez farelerde hepatik inhibisyonu karaciğer yağlanmasını azaltıp sistemik glukoz homeostazını iyileştirdi.",
+    "why_interesting": "Mitokondrinin yalnızca ATP değil, ATP'den daha yüksek enerji içeren PEP aracılığıyla da lipogenezi yönettiğini gösteren yeni bir metabolik çerçeve sunuyor. NAFLD ve tip 2 diyabetin patogenezinde lipogenik mitokondriyi merkeze oturtan bu mekanizma, hâlihazırda bilinmeyen terapötik bir hedefi gün yüzüne çıkarıyor.",
     "category": "yeni-çerçeve"
   },
   {
-    "title": "Three-dimensional high-content imaging of unstained soft tissue with subcellular resolution using a laboratory-based X-ray microscope.",
+    "title": "m6A epigenetic modification of viral RNA is critical for the transmission cycle of mosquito-borne flaviviruses.",
     "journal": "PNAS",
-    "authors": "Esposito Michela et al.",
-    "url": "https://doi.org/10.1073/pnas.2525239123",
-    "pmid": "41843669",
-    "summary": "Faz-kontrast X-ışını mikroskobu kullanılarak boyanmamış yumuşak dokudan subselüler çözünürlükte 3 boyutlu görüntü elde edildi. Elektronik yoğunluğun doğrudan ölçümü, hücre çekirdeği segmentasyonu ve makine öğrenmesi tabanlı stil transferiyle sanal H&E boyama gerçekleştirildi; volümetrik veri mevcut histopatoloji araçlarıyla uyumlu.",
-    "why_interesting": "Histoloji bir buçuk yüzyıldır dokuyu yıkıp 2D dilimleyerek çalışıyor; bu yaklaşım boyama ve sectioning olmaksızın, standart laboratuvar ortamında tam 3D sanal H&E sunuyor. Biyopsi materyalini tüketmeden hacimsel doku mimarisini inceleme imkânı, patoloji pratiğini kökten değiştirebilecek metodolojik bir sıçrama.",
-    "category": "metodolojik-inovasyon"
-  },
-  {
-    "title": "Insulin resistance prediction from wearables and routine blood biomarkers.",
-    "journal": "Nature",
-    "authors": "Metwally Ahmed A et al.",
-    "url": "https://doi.org/10.1038/s41586-026-10179-2",
-    "pmid": "41840032",
-    "summary": "1165 kişilik büyük, uzaktan yürütülen WEAR-ME çalışmasında giyilebilir sensör zaman serisi verileri + rutin kan biyobelirteçleriyle eğitilen derin sinir ağı, HOMA-IR tabanlı insülin direncini AUROC 0.80 ile tahmin etti. 40 milyon saatlik sensör verisiyle ön eğitimli giyilebilir temel modeli (WFM) ince ayarlanınca, demografik + açlık glukozu + lipid paneline WFM eklenmesi AUROC'u 0.76'dan 0.88'e çıkardı.",
-    "why_interesting": "İnsülin direnci testi pahalı ve erişimi kısıtlı; bu çalışma standart bir akıllı saatin klinik test performansına yakın IR tespiti yapabileceğini gösteriyor. Giyilebilir temel modelin ince ayar gerektiren ama veri-verimli olması, ölçeklenebilir erken metabolik risk tespitinde paradigma değişikliği potansiyeli taşıyor.",
-    "category": "metodolojik-inovasyon"
-  },
-  {
-    "title": "Phosphate scarcity governs methane production in the global open ocean.",
-    "journal": "PNAS",
-    "authors": "Wang Shengyu et al.",
-    "url": "https://doi.org/10.1073/pnas.2521235123",
-    "pmid": "41843686",
-    "summary": "Açık okyanusun oksijenlı yüzey sularındaki metan süpersatürasyonunu veri-asimile eden bir modelyle test eden çalışma, yalnızca fosfat kıtlığına bağlanan metan üretiminin gözlemlenen küresel dağılımı açıklayabildiğini buldu. Mekanizma, metilfosfanat bileşiğinin PO4-kısıtlı mikrobiyal yarılmasıdır; oluşan metan %90'dan fazla oranda atmosfere kaçıyor. Gelecek okyanusun ısınması ve stratifikasyonu fosfat kıtlığını artırarak metan emisyonlarını iki katına çıkarabilir.",
-    "why_interesting": "Okyanusun oksijensiz değil oksijenlı katmanlarındaki metan üretimi 'okyanus metan paradoksu' olarak onlarca yıldır bilinmekte ama mekanizması tartışmalıydı. Bu çalışma hem mekanizmayı çözüyor (metilfosfanat → PO4 limitasyonu) hem de iklim ısınması-doğal sera gazı geri beslemesi döngüsünü nicelleştiriyor.",
-    "category": "yeni-çerçeve"
-  },
-  {
-    "title": "Origin of eukaryotic plasmalogen biosynthesis by horizontal gene transfer from myxobacteria.",
-    "journal": "PNAS",
-    "authors": "Trinidad-Barnech Juan Manuel et al.",
-    "url": "https://doi.org/10.1073/pnas.2529738123",
-    "pmid": "41843685",
-    "summary": "Kapsamlı filogenomik analiz ve enzimatik doğrulama ile plazmalogen biyosentezinin temel enzimi PEDS1'in (ve muhtemelen FAR ve GNPAT'ın) miksebakterilerden yatay gen transferiyle erken bir ökaryot ataya geçtiği gösterildi. Bu bakteri kaynaklı yolak Amorphea ve Discoba üst gruplarında korundu, bitkilerde ise kayboldu.",
-    "why_interesting": "Hayvan zarlarında bol bulunan ve insan sağlığı için kritik olan plazmalojenler gizemli bir evrimsel geçmişe sahipti; bu çalışma kökenin prokaryot-ökaryot yatay gen transferi olduğunu ortaya koyuyor. Ökaryotik lipid metabolizmasının temel bir bileşeninin bakteri genlerine dayandığı, disiplinler arası (evrimsel biyoloji ↔ insan lipid metabolizması) güçlü bir bulgu.",
+    "authors": "Zhang Yanan et al.",
+    "url": "https://doi.org/10.1073/pnas.2511164123",
+    "pmid": "41849403",
+    "summary": "m6A modifikasyonunun sivrisinek kaynaklı flavivirüslerin vertebrat konakta çoğalmasını kolaylaştırdığı, ancak sivrisinek konakta gerekli olmadığı gösterildi. Viral 3'UTR'daki stem loop I ile hücresel G3BP1 etkileşimi stres granüllerindeki m6A modifikasyonunu yönlendiriyor; METTL3 inhibisyonu hem fareye enfeksiyonu bloke etti hem de fare-sivrisinek bulaş döngüsünü tamamen kesti.",
+    "why_interesting": "Aynı virüsün iki farklı konakta farklı epigenetik gereksinimler sergilemesi, çift-konak adaptasyonunu açıklayan beklenmedik bir mekanizma ortaya koyuyor. Viral epigenomun konak özgü bir 'anahtar' gibi davranması, hem antiviral ilaç geliştirme hem de vektör-yayılım kontrolü için aynı anda saldırılabilecek özgün bir hedef sunuyor.",
     "category": "disiplinler-arası"
+  },
+  {
+    "title": "An autoimmunity-associated allele of PTPN22 enhances innate antiviral immunity to protect against acute coronavirus infection.",
+    "journal": "PNAS",
+    "authors": "Bevis Alec M et al.",
+    "url": "https://doi.org/10.1073/pnas.2519903123",
+    "pmid": "41849391",
+    "summary": "Otoimmün hastalık riski taşıyan Ptpn22 PEP-R619W varyantı, NK hücrelerini olgunlaştırarak ve IFN-γ sekresyonunu artırarak akut koronavirüs enfeksiyonuna karşı doza bağımsız koruma sağlıyor. Bu etki adaptif immün sistemi olmayan Rag1-/- farelerde de korunurken NK hücre deplesyonu korumayı tamamen ortadan kaldırdı.",
+    "why_interesting": "Otoimmünite risk allellerinin neden seçilim baskısıyla korunduğuna dair klasik evrimsel hipotezi (balancing selection) mekanistik olarak kanıtlayan nadir çalışmalardan biri. NK hücre fonksiyonu üzerindeki bu spesifik etki, otoimmünite ile viral direnç arasındaki biyolojik ödünleşimi (trade-off) doğrudan gözlemlenebilir kıldığı için paradigma değiştirici nitelikte.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Four centuries of commercial whaling eroded 11,000 years of population stability in bowhead whales.",
+    "journal": "Cell",
+    "authors": "Westbury Michael V et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.022",
+    "pmid": "41850289",
+    "summary": "Paleogenomik, stabil izotop ve paleoklimat modelleme entegrasyonuyla balinaların 11,000 yıllık Holosen iklim değişikliklerine karşı genetik çeşitliliklerini ve fitness düzeylerini koruduğu, ancak ticari avcılığın bu direnci kalıcı olarak aşındırdığı gösterildi. Tam popülasyon toparlanması simülasyonlarında bile ticari avcılık öncesi fitness seviyeleri geri kazanılamıyor.",
+    "why_interesting": "Sayısal popülasyon toparlanmasının biyolojik toparlanmaya eşit olduğu temel koruma biyolojisi varsayımını doğrudan çürütüyor. Geçmiş istismarın genetik izlerinin kalıcılığı ve fitness üzerindeki uzun vadeli etkileri, nesli tükenmekte olan türlerin koruma hedeflerinin salt sayısal kriterlerle belirlenmesini sorgulatıyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Sleep alters neurovascular and hydrodynamic coupling in the human brain.",
+    "journal": "PNAS",
+    "authors": "Väyrynen Tommi et al.",
+    "url": "https://doi.org/10.1073/pnas.2510731123",
+    "pmid": "41849399",
+    "summary": "fMRI BOLD, EEG ve fNIRS ile uyku-uyanıklık döngüleri boyunca beyin sinyallerinin yönlendirilmiş eşleşmeleri ölçüldü. Uyanıklıkta klasik fonksiyonel hiperemide sinirsel sinyaller hemodinamiği yönlendirirken uyku sırasında bu yönlendirilmiş etkileşim çözülüyor ve vasomotor kaynaklı hidrodinamik dalgalar beyin aktivitesi üzerinde belirleyici güce ulaşıyor.",
+    "why_interesting": "Uyku sırasında beynin kendi kendini temizleme (glimfatik) mekanizmasının neden çok daha verimli olduğunu açıklayan yeni bir neurovasküler çerçeve sunuyor: nöronal kontrol yerini pasif damar-sıvı dinamiklerine bırakıyor. Bu, uyku bozuklukları ile nörodejeneratif hastalıklar arasındaki bağlantıyı mekanistik düzeyde yeniden yorumlamayı gerektiriyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Calsyntenin-3 suppresses inflammation via inhibition of TLR N-glycosylation and membrane localization.",
+    "journal": "PNAS",
+    "authors": "Duan Jiaqi et al.",
+    "url": "https://doi.org/10.1073/pnas.2528269123",
+    "pmid": "41849401",
+    "summary": "Genom çapında CRISPR taramasıyla keşfedilen CLSTN3, OST kompleksinin DDOST alt birimine bağlanarak STT3A katalitik alt biriminin etkileşimini engelliyor; bu mekanizma TLR4, TLR3, TLR7 ve TLR9'un N-glikozilasyonunu ve hücre zarına taşınmasını baskılıyor. CLSTN3 ekspresyonu çoklu iltihabi hastalıklarda azalmış ve sepsiste sitokin ekspresyonuyla negatif korelasyon gösteriyor.",
+    "why_interesting": "Birden fazla TLR'ı aynı anda baskılamak için glikozilasyon makinasını hedefleyen yeni bir üst-düzenleme mekanizması tanımlanıyor. TLR sinyalleşmesinin sıkça bilinen yolakları yerine post-translasyonel olgunlaşmayı engelleyerek geniş spektrumlu immün baskılama sağlaması, septik şok başta olmak üzere iltihabi hastalıklarda tamamen farklı bir ilaç geliştirme stratejisi açıyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Regulation of the immune CD155-CD226-TIGIT axis by cyclin D-CDK4/6.",
+    "journal": "PNAS",
+    "authors": "Fassl Anne et al.",
+    "url": "https://doi.org/10.1073/pnas.2522872123",
+    "pmid": "41849398",
+    "summary": "CDK4/6 inhibisyonu meme kanseri hücrelerinde yüzey CD155 ekspresyonunu artırırken tümör infiltre lenfositlerde immüno-inhibitör reseptör TIGIT'i azaltıyor. Bu etki hücre dizilerinde, fare modellerinde, taze insan tümör dokusunda ve hasta öncesi/sırasında alınan biyopsilerde tutarlı biçimde doğrulandı.",
+    "why_interesting": "Onaylı meme kanseri ilaçlarının (palbociclib, ribociclib vb.) immün kontrol noktası dengesini beklenmedik biçimde modüle ettiği gösteriliyor; hücre döngüsü makinası ile tümör-immünite ara yüzü arasında göz ardı edilen bir bağlantıya işaret ediyor. CDK4/6 inhibitörleri ile anti-TIGIT antikorların sinerjik etki gösterebileceğinin mekanistik temeli bu çalışmayla atılıyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Imported, not invented, genes prevail among Escherichia coli ORFans.",
+    "journal": "PNAS",
+    "authors": "Uz-Zaman Md Hassan et al.",
+    "url": "https://doi.org/10.1073/pnas.2523357123",
+    "pmid": "41849400",
+    "summary": "E. coli ORFan genlerinin (dışarıda homologu olmayan genler) büyük çoğunluğunun bakteri genomunda de novo oluşmadığı; başta faj transdüksiyonu olmak üzere yatay gen transferiyle edinildiği pangenomik dağılım analizi ile gösterildi. Küçük bir alt küme mevcut kodlayan dizilerden veya kodlanmayan sekanslardan diverjans yoluyla ortaya çıktı ve bunlar ağırlıklı olarak savunma ve membran işlevleri üstleniyor.",
+    "why_interesting": "Onlarca yıldır çözümsüz kalan 'ORFan genleri nereden geliyor?' sorusunu sistematik kanıtlarla yanıtlıyor: yeni gen doğuşunu evrimsel bir yaratım değil, ekosistemik bir ithalat olarak yeniden çerçeveliyor. Faj transdüksiyonunun işlevsel gen çeşitliğine ana katkıyı sağladığının gösterilmesi, bakteriyel evrim ve mikrobiom dinamikleri anlayışını köklü biçimde değiştiriyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Endocrine gland growth as the developmental switch for insect diapause.",
+    "journal": "PNAS",
+    "authors": "Wang Kou et al.",
+    "url": "https://doi.org/10.1073/pnas.2531351123",
+    "pmid": "41849376",
+    "summary": "Lahana böceğinde fotoperiyodun corpora allata (CA) bezinin fiziksel büyüklüğünü ve çekirdek boyutunu düzenleyerek juvenil hormon (JH) biyosentez kapasitesini ve üreme kaderini belirlediği gösterildi. RNAi taramasıyla bulunan retn ve vvl transkripsiyon faktörleri CA büyümesini, JH üretimini ve diyapoz geçişini yönetiyor; JH analoğu uygulaması bu etkileri tersine çeviriyor.",
+    "why_interesting": "Mevsimsel adaptasyonun endokrin organ büyüklüğünü (sekretuar aktiviteyi değil) 'nedensel anahtar' olarak kullandığını gösteren bu bulgu, endokrin sistemin nasıl çevresel bilgiyi fizyolojik kapasiteye dönüştürdüğüne dair mevcut anlayışı köklü biçimde değiştiriyor. Organ büyümesinin kendisinin bir çıktı değil bir kararlaştırıcı olduğunu gösteren bu çerçeve, daha geniş nöroendokrin plastisitesi araştırmalarına model sağlıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes.",
+    "journal": "Cell",
+    "authors": "Xing Jing et al.",
+    "url": "https://doi.org/10.1016/j.cell.2026.02.016",
+    "pmid": "41850287",
+    "summary": "GPS (gene expression profile predictor on chemical structures) platformu, kimyasal yapıdan transkriptomik pertürbasyon imzasını tahmin eden bir derin öğrenme modeli ve ağaç-arama optimizasyonu kullanarak büyük bileşik kütüphanelerini tarıyor. Hepatoselüler karsinomda in vivo etkinliği doğrulanan iki yeni bileşik serisi ve idiyopatik pulmoner fibroziste tek hücre RNA-seq verisinden türetilen anti-fibrotik aday keşfedildi.",
+    "why_interesting": "Transkriptomik verileri reaktif değil proaktif biçimde kullanarak ilaç repurposing'in ötesine geçiyor: kimyasal yapı-gen aktivitesi ilişkilerini tersine mühendislik yaparak de novo molekül tasarımını güdümlüyor. Hastalığa özgü hücresel transkriptom fenotipiyle hedef belirlemenin, geleneksel tek-hedef yaklaşımına kıyasla daha zengin ve beklenmedik mekanistik keşiflere kapı araladığını deneysel olarak kanıtlaması metodolojik açıdan önemli.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Fetal developmental trajectories following maternal immune activation are shaped by sex chromosome-gonadal interactions.",
+    "journal": "PNAS",
+    "authors": "Randell Alison M et al.",
+    "url": "https://doi.org/10.1073/pnas.2531595123",
+    "pmid": "41849388",
+    "summary": "Dört-çekirdek genotip (FCG) fare modeliyle maternal immün aktivasyona (MIA) verilen fetal yanıtlarda seks kromozomlarının (XX/XY) ve gonadların (over/testis) katkıları ayrıştırıldı. XX gonadal dişiler büyük ölçüde MIA'dan bağımsız olarak plasental tampon görevi üstlenirken XY gonadal dişiler (XY kromozom + over) en yüksek nöral enflamasyon gösterdi ve XX gonadal erkeklerde Sry varlığı bazı organ gelişimini belirgin biçimde bozdu.",
+    "why_interesting": "Nörogelişimsel bozuklukların erkek baskınlığını açıklamaya çalışan mevcut çalışmaların çoğu biyolojik seks ile gonadı eş anlamlı kullanıyor; bu çalışma ikisinin bağımsız ve bazen zıt etkilere sahip olduğunu gösteriyor. XY gonadal dişilerin en fazla nöral enflamasyon sergilemesi, seks farkının androjen değil X/Y kromozomal dozajından kaynaklanabileceğini düşündürüyor ve bu ayrımı sağlayamayan önceki çalışmaların yorumlarını sorunsallaştırıyor.",
+    "category": "beklenmedik-bulgu"
   }
 ]

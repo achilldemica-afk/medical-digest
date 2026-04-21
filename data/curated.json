@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "title": "p53 safeguards chemical reprogramming of human somatic cells toward pluripotency",
+    "journal": "Cell",
+    "authors": "Cheng Lin et al.",
+    "doi": "10.1016/j.cell.2026.03.038",
+    "url": "https://doi.org/10.1016/j.cell.2026.03.038",
+    "pmid": "41999746",
+    "summary": "Bu çalışma, p53'ün kimyasal yeniden programlamada (CiPSC üretimi) baskılayıcı değil, aksine zorunlu bir rol oynadığını ortaya koyuyor. p53, erken programlama aşamalarında aşırı epitel-mezenkimal geçişi önleyerek ve BTG2 aracılığıyla hücre proliferasyonunu koruyarak genomik bütünlüğü güvence altına alıyor.",
+    "why_interesting": "Transkripsiyon faktörü bazlı yeniden programlamada (Yamanaka faktörleri) p53 inhibe edici rol üstlenirken, kimyasal yeniden programlamada tam tersi işlev görüyor. p53'ün kontekste bağlı olarak diyametral olarak farklı işlevler üstlenebileceğini gösteren bu paradigma-kırıcı bulgu, iPSC güvenliği tartışmalarını köklü biçimde yeniden çerçeveliyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "B cell deficiency limits exercise capacity by remodeling liver glutamate metabolism",
+    "journal": "Cell",
+    "authors": "Mao Youxiang et al.",
+    "doi": "10.1016/j.cell.2026.03.039",
+    "url": "https://doi.org/10.1016/j.cell.2026.03.039",
+    "pmid": "41999743",
+    "summary": "B hücre eksikliğinin egzersiz kapasitesini azalttığı ve bunun immün değil metabolik bir mekanizma aracılığıyla gerçekleştiği gösteriliyor: B hücreleri TGF-β1 üreterek karaciğerde glutaminaz-2 ekspresyonunu artırıyor, karaciğer glutamat üretimini yükseltiyor ve bu glutamat iskelet kasında kalsiyum sinyalizasyonunu ile mitokondri biogenezini destekliyor.",
+    "why_interesting": "B lenfositlerin immünolojik işlevi dışında, karaciğer-kas metabolik eksenini doğrudan düzenleyen tamamen yeni bir rolü ortaya konuyor. Rituksimab gibi B hücre deplasyon terapilerinin egzersiz intoleransına yol açabileceğini açıklayan mekanistik bir keşif; immünoloji ile egzersiz fizyolojisi arasında beklenmedik bir köprü kuruyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Gut microbiome is associated with recurrence-free survival in patients with resected high-risk melanoma receiving adjuvant immune checkpoint blockade",
+    "journal": "Cell",
+    "authors": "Usyk Mykhaylo et al.",
+    "doi": "10.1016/j.cell.2026.03.041",
+    "url": "https://doi.org/10.1016/j.cell.2026.03.041",
+    "pmid": "41999744",
+    "summary": "CheckMate 915 faz 3 çalışmasından 674 hastanın dışkı örneklerinde, tedavi öncesi bağırsak mikrobiyomu nivolumab ± ipilimumab sonrası nüks olasılığını tahmin ediyor. Benzer mikrobiyom profiline sahip bireyler arasında tahmin AUC değeri 0.78-0.94'e ulaşıyor; Eubacterium, Ruminococcus ve Clostridium nüksle ilişkili taksalar olarak öne çıkıyor.",
+    "why_interesting": "Bu ölçekte (n=674, faz 3 RCT) klinik doğrulanmış mikrobiyom-ICB yanıt ilişkisi daha önce gösterilmemişti. AUC 0.94'e ulaşan tahmin başarısı, bağırsak mikrobiyomunu rutin adjuvan tedavi karar süreçlerinde kullanılabilir bir biyobelirteç olarak konumlandırıyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Predicting competition and substrate preferences for targeted microbiome alteration",
+    "journal": "Cell",
+    "authors": "Moyne Oriane et al.",
+    "doi": "10.1016/j.cell.2026.03.036",
+    "url": "https://doi.org/10.1016/j.cell.2026.03.036",
+    "pmid": "41999742",
+    "summary": "MIND (Microbial Interaction and Niche Determination) adlı yeni yöntem, mRNA translasyon önceliğini ölçerek karmaşık mikrobiyom topluluklarında substrat tercihlerini ve rekabet etkileşimlerini işlevsel olarak tahmin ediyor. Sentetik topluluklar, toprak, insan dışkı örnekleri ve fare modelinde test edilerek hassas prebiyotik/probiyotik müdahalelere rehberlik etmiştir.",
+    "why_interesting": "Mikrobiyom bilimindeki korelasyon tabanlı betimleyici yaklaşımların ötesine geçen, işlevsel ölçümleri ekolojik çıktılarla ilişkilendiren ilk mekanistik çerçevelerden biri. Mikrobiyom müdahalesini 'rastgele deneme'den 'tasarım tabanlı mühendislik'e taşıma potansiyeli taşıyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "A farnesol-sensing triad in Pseudomonas aeruginosa drives interkingdom predation on Candida albicans via signal transduction",
+    "journal": "PNAS",
+    "authors": "Wei Zhiyan et al.",
+    "doi": "10.1073/pnas.2529531123",
+    "url": "https://doi.org/10.1073/pnas.2529531123",
+    "pmid": "42008684",
+    "summary": "Pseudomonas aeruginosa'nın Candida albicans'ın kuorum sinyali farnesol'ü tespit eden üç reseptörlü bir sistem (PctA kemoreseptör, PilJ pilus sensörü, PqsR kuorum regülatörü) aracılığıyla mantar hillerine yönelik hedefli bir avlanma stratejisi yürüttüğü gösteriliyor. PA, farnesol'ü kendi sinyaline (PQS) dönüştürerek virülans ve metabolizmasını mantar durumuna göre dinamik olarak ayarlıyor.",
+    "why_interesting": "Bakterilerin mantar kuorum sinyallerini deşifre edip kendi saldırı sistemi için yeniden kullandığını gösteren bu çalışma, interkingdom iletişiminin sofistikeliğini beklenmedik ölçüde ortaya koyuyor. PA-Candida eş enfeksiyonlarının yüksek görüldüğü kistik fibrozis ve yanık yaraları gibi klinik senaryolarda yeni terapötik hedefler sunuyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "Aurora-A drives sorafenib resistance by scaffolding stress granule assembly via phase separation",
+    "journal": "PNAS",
+    "authors": "Kong Lingyu et al.",
+    "doi": "10.1073/pnas.2516469123",
+    "url": "https://doi.org/10.1073/pnas.2516469123",
+    "pmid": "42008675",
+    "summary": "Sorafenib tedavisi Aurora-A'nın faz ayrışmasına girerek stres granüllerine katılmasını tetikliyor; Aurora-A bu granüllerin oluşumunda kinaz aktivitesinden bağımsız olarak RNA-bağlayan iskele proteini olarak görev yapıyor ve kanser hücrelerini ilaca karşı koruyor. IDR bölgesindeki K/R mutasyonları RNA bağlanmasını bozarak bu direnci ortadan kaldırıyor.",
+    "why_interesting": "Aurora-A şimdiye kadar yalnızca mitotik kinaz olarak biliniyordu; bu çalışma kinaz-bağımsız, RNA-bağlayan ve biyomoleküler yoğunlaşma iskeleleyici yepyeni bir işlev tanımlıyor. Kinaz inhibitörlerine yanıt vermeyen direnç mekanizmalarını hedeflemeye yönelik IDR-inhibisyon stratejisi fikrini açıyor.",
+    "category": "paradigma-kırıcı"
+  },
+  {
+    "title": "Dopaminergic modulation of the sense of agency influences moral behavior in Parkinson's disease",
+    "journal": "PNAS",
+    "authors": "Ponsi Giorgia et al.",
+    "doi": "10.1073/pnas.2513356123",
+    "url": "https://doi.org/10.1073/pnas.2513356123",
+    "pmid": "42008672",
+    "summary": "Parkinson hastalarında dopaminerjik ilaç tedavisi hem eylemcilik hissini (sense of agency) artırıyor hem de hilekâr davranışı azaltıyor; bu iki etki arasında anlamlı korelasyon bulunuyor. Drift diffüzyon modellemesi, dopaminerjik durumun eylem tahmini hatalarına verilen kanıt birikimini etkilediğini gösteriyor.",
+    "why_interesting": "Dopaminerjik modulasyonun bedensel öz-farkındalık (eylemcilik hissi) üzerinden ahlaki karar vermeyi doğrudan etkilediğini deneysel olarak gösteren bu çalışma nöroloji, bilişsel sinirbilim ve ahlak psikolojisinin kesişiminde çarpıcı bir köprü kuruyor. Beyin hasarı veya dopamin bozukluğu olan bireylerde ahlaki yetkinlik değerlendirmesine yeni bir boyut katıyor.",
+    "category": "disiplinler-arası"
+  },
+  {
+    "title": "A discrete serotonergic circuit involved in the generation of tinnitus behavior",
+    "journal": "PNAS",
+    "authors": "Yu Meng-Ting et al.",
+    "doi": "10.1073/pnas.2509692123",
+    "url": "https://doi.org/10.1073/pnas.2509692123",
+    "pmid": "42008671",
+    "summary": "Dorsal raphe çekirdeğinden dorsal kohlear çekirdeğe (DCN) projekte olan özgün bir serotonerjik nöron alt popülasyonu (5-HTDRN→DCN) tanımlanıyor. Bu devrenin optogenetik veya kemogenetik aktivasyonu DCN'de tinnitus karakteristiklerinde hiperativiteye ve tinnitus benzeri davranışa yol açarken, devre inhibisyonu gürültüye bağlı tinnitusun davranışsal belirtilerini anlamlı ölçüde düzeltiyor.",
+    "why_interesting": "Tinnitus için devre düzeyinde spesifik bir serotonerjik mekanizma ilk kez tanımlanıyor. Bu bulgu SSRI kullanımının tinnitusü bazen kötüleştirdiğine dair klinik gözlemi açıklayabilir ve 5-HT2A reseptörünü daha önce hiç değerlendirilmemiş bir terapi hedefi olarak öne çıkarıyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "The temperature dependence of amyloid β solubility reveals the hydrophobic effect as the main driving force for fibril formation",
+    "journal": "PNAS",
+    "authors": "Lindberg Max et al.",
+    "doi": "10.1073/pnas.2531916123",
+    "url": "https://doi.org/10.1073/pnas.2531916123",
+    "pmid": "42008670",
+    "summary": "Aβ42'nin çözünürlüğünün sıcaklığa bağlı monoton olmayan bir profil çizdiği gösteriliyor: en düşük çözünürlük (~20 nM) tam olarak vücut sıcaklığında gözlemleniyor ve çözünürlük hem daha düşük hem de daha yüksek sıcaklıklarda artıyor. Bu U şekilli profil, fibril oluşumunun temel itici gücünün hidrofobik etki olduğuna işaret ediyor.",
+    "why_interesting": "Alzheimer amiloid agregasyonunun neden vücut ısısına 'optimize' edildiğini termodinamik açıdan açıklayan bu çerçeve daha önce ortaya konmamıştı. Hidrofobik etkiyi birincil hedef alan antiagregatif stratejilere yeni bir teorik temel sağlıyor; bu, elektrostatik veya kinetik yaklaşımlara odaklanan mevcut paradigmadan ayrışıyor.",
+    "category": "yeni-çerçeve"
+  },
+  {
+    "title": "Efficient replication of influenza D virus in the human airway underscores zoonotic potential",
+    "journal": "PNAS",
+    "authors": "Sanders Christina G et al.",
+    "doi": "10.1073/pnas.2530325123",
+    "url": "https://doi.org/10.1073/pnas.2530325123",
+    "pmid": "42008667",
+    "summary": "İnfluenza D virüsünün (IDV) insan hava yolu hücrelerinde ve dokularında İnfluenza A'ya benzer titrelere ulaşacak şekilde etkin biçimde çoğaldığı gösteriliyor; üstelik IDV, interferon regulatory factor sinyalizasyonunu ve interferon-lambda 1 ekspresyonunu belirgin biçimde baskılıyor. Bununla birlikte, önceden interferon uyarılmış hücrelerde IDV replikasyonu güçlü biçimde engelleniyor.",
+    "why_interesting": "Çiftlik hayvanlarında endemik olduğu düşünülen IDV'nin insan hava yollarında verimli çoğalması beklenmedik; ancak asıl şaşırtıcı olan doğal bağışıklık sinyalizasyonunu aktif olarak bastırıyor olması. Bu kombinasyon, IDV'yi şimdiye kadar yeterince izlenmeyen gerçek bir pandemi adayı olarak yeniden konumlandırıyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Associations of Colic and Excessive Crying in Infancy with Food Allergy Outcomes in Childhood and Adolescence",
+    "journal": "Journal of Pediatrics",
+    "authors": "Switkowski Karen M et al.",
+    "doi": "10.1016/j.jpeds.2026.115111",
+    "url": "https://doi.org/10.1016/j.jpeds.2026.115111",
+    "pmid": "42002214",
+    "summary": "1263 çocuğun prospektif Project Viva kohortunda, bebek koliği erken çocuklukta gıda alerjisi riskini 1.7 kat, erken ve orta ergenlikte fıstık alerjisi riskini 2.1 kat, ağaç fıstığı alerjisi riskini 2.6 kat artırıyor. Aşırı ağlama (kolik dışı) bu ilişkiyi paylaşmıyor; IgE duyarlılaşması da kolikli bebeklerde 2.5 kat yüksek bulunuyor.",
+    "why_interesting": "Kolik şimdiye kadar sindirim immatüritesi veya nöronal aşırı uyarılma ile açıklanıyordu; bu çalışma onu erken atopik yürüyüş için bir biyobelirteç olarak yeniden çerçeveliyor. Kolikli bebeklere erken allerjen maruziyeti stratejilerinin uygulanması için yeni bir klinik gerekçe sunuyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Chronotherapeutic Approaches to Target Insufficient and Late Sleep in Adolescents: A Randomized Clinical Trial",
+    "journal": "JAMA Pediatrics",
+    "authors": "Wescott Delainey L et al.",
+    "doi": "10.1001/jamapediatrics.2026.0976",
+    "url": "https://doi.org/10.1001/jamapediatrics.2026.0976",
+    "pmid": "42008244",
+    "summary": "Gece 1'den sonra uyuyan 86 ergende uyku takvimi + sabah parlak ışık gözlükleri + akşam mavi ışık bloklayan gözlükleri kombinasyonunun 2 haftada sirkadyan zamanlamayı 45 dakika öne aldığı ve hafta içi uyku süresini 47 dakika uzattığı randomize klinik çalışmayla gösteriliyor. Müdahale tek bir problem çözme seansı ve 2 haftalık uygulamadan oluşuyor.",
+    "why_interesting": "Ergen kronik uyku kayıp sorununu farmakoloji gerektirmeden, kısa ve ölçeklenebilir bir müdahaleyle ele alıyor. Sabah ışık maruziyeti ile akşam mavi ışık blokajının kombinasyonunun sirkadyan sistemi bu kadar hızlı ve anlamlı ölçüde kaydırabilmesi, pratik bir halk sağlığı aracı olarak umut vaat ediyor.",
+    "category": "metodolojik-inovasyon"
+  },
+  {
+    "title": "Cerebral Oximetry in Extremely Preterm Infants: 2-Year Follow-Up of the SafeBoosC-III Randomized Clinical Trial",
+    "journal": "JAMA Pediatrics",
+    "authors": "Rasmussen Marie Isabel Skov et al.",
+    "doi": "10.1001/jamapediatrics.2026.1066",
+    "url": "https://doi.org/10.1001/jamapediatrics.2026.1066",
+    "pmid": "42008246",
+    "summary": "17 ülkede 56 merkezden 1438 aşırı erken doğan bebekte, ilk 72 saatte serebral oksimetri monitörizasyonuna dayalı tedavi rehberliğinin 2 yıllık izlemde ne ölüm/ciddi nörogelişimsel bozukluk oranlarını (%47.1'e karşı %48.0) ne de Bayley bilişsel skorlarını anlamlı ölçüde değiştirmediği gösteriliyor.",
+    "why_interesting": "Fizyolojik gerekçesi güçlü ve geniş çapta benimsenmekte olan serebral oksimetri monitörizasyonunun en büyük çok merkezli faz 3 çalışmada uzun vadeli çıktıları iyileştirmediği görülüyor. Bu, klinik pratikte monitörizasyon teknolojisinin verimlilik yanılsaması yaratma riskine güçlü bir kanıt sunuyor.",
+    "category": "beklenmedik-bulgu"
+  },
+  {
+    "title": "Implementation of a kidney protection strategy to prevent acute kidney injury after major surgery in high-risk patients identified by biomarkers: a systematic review and individual participant data meta-analysis of randomized controlled trials",
+    "journal": "Intensive Care Medicine",
+    "authors": "von Groote Thilo et al.",
+    "doi": "10.1007/s00134-026-08399-1",
+    "url": "https://doi.org/10.1007/s00134-026-08399-1",
+    "pmid": "42007986",
+    "summary": "1851 hastanın bireysel verileriyle yapılan meta-analizde, biyobelirteç temelli risk sınıflandırması sonrası uygulanan KDIGO böbrek koruma stratejisi (hemodinamik optimizasyon, nefrotoksin kaçınma, düzenli böbrek fonksiyon izlemi, glisemik kontrol), büyük cerrahi sonrası orta-ağır AKI oranını %27.1'den %17.7'ye düşürüyor (OR 0.55); çalışmalar arasında heterojenite saptanmıyor.",
+    "why_interesting": "Biyobelirteç kılavuzluğunda hasta zenginleştirmesinin doğru seçilmiş bir popülasyonda standart bakıma kıyasla anlamlı AKI azalması sağladığını gösteren en güçlü klinik kanıt. Cerrahi yoğun bakım uygulamalarını doğrudan değiştirme kapasitesine sahip; biyobelirteçlerin sadece tanı değil, müdahale rehberi olarak kullanılabileceğini gösteriyor.",
+    "category": "metodolojik-inovasyon"
+  }
+]
